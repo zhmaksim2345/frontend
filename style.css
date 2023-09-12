@@ -1,0 +1,227 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.block {
+    margin: 15px;
+    line-height: 35px;
+}
+
+
+    a.bot1{
+        background:linear-gradient(to bottom, #FFFFFF, #E6E6E6) #F5F5F5 repeat-x;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+        color: #333333;
+            text-decoration:none;
+        display:block;
+        font-size: 14px;
+            width:120px;
+        line-height: 20px;
+        margin: 20px auto;
+        padding: 4px 12px;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+        vertical-align: middle;
+      position: relative;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: -webkit-transform;
+      transition-property: transform;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    }
+    
+    a.bot1:before {
+      pointer-events: none;
+      position: absolute;
+      z-index: -1;
+      content: '';
+      top: 100%;
+      left: 5%;
+      height: 10px;
+      width: 90%;
+      opacity: 0;
+      background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+      background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: -webkit-transform, opacity;
+      transition-property: transform, opacity;
+    }
+    
+    a.bot1:hover {
+      -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+    a.bot1:hover:before {
+      opacity: 1;
+      -webkit-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+      transform: translateY(5px);
+    
+}
+a.bot8 {
+    background-color: #FFFFFF;
+      border: 1px solid #CCCCCC;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+      transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+          border-radius: 4px;
+      color: #555555;
+      display:block;
+          width:180px;
+          margin: 20px auto;
+      font-size: 14px;
+          text-align:center;
+      height: 50px;
+      line-height: 20px;
+      margin-bottom: 10px;
+      padding: 4px 6px;
+      vertical-align: middle;
+          text-decoration:none;
+  }
+  a.bot8:hover, a.bot8:focus {
+     border-color: rgba(82, 168, 236, 0.8);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+     outline: 0 none;
+  }
+
+  a.boot {
+    -webkit-transform: translate3D(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    color: #2d2d2d;
+    padding: 14px 24px 12px;
+    font-family: "Helvetica";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    display:block;
+    width:160px;
+    margin:20px auto;
+    text-align:center;
+  }
+  a.boot:after {
+    padding: 0;
+    border: 2px solid #000000;
+    content: '';
+    width: 95%;
+    height: 46px;
+    display: block;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+  }
+  a.boot:before {
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    content: '';
+    width: 100%;
+    height: 60px;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    border-left: 15px solid white;
+    box-shadow: -20px 30px 30px white;
+    background: transparent;
+    top: 0px;
+    left: -15px;
+    margin-left: -1px;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+   a.boot:hover:before, a.boot:active:before, a.boot:focus:before {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: translate(115%, 0);
+    -moz-transform: translate(115%, 0);
+    -ms-transform: translate(115%, 0);
+    -o-transform: translate(115%, 0);
+    transform: translate(115%, 0);
+  }
+
+  a.botr{
+    background:#fff;
+    width:225px;
+    display:block;
+    height:70px;
+    padding-top:19px;
+    border:1px solid #000;
+     margin: 20px auto;
+    font-family: 'Dosis', sans;
+    font-size: 18px;
+    font-weight:200;
+    color:#000;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-align:center;
+    opacity:.8;
+    letter-spacing: 1px;
+      -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+       -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+          transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+  }
+  a.botr:hover{
+    width:225px;
+    height:70px;
+    padding-top:19px;
+    border:1px solid teal;
+    margin: 20px auto;
+    opacity:1;
+    letter-spacing: 4px;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+       -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+          transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+  }
+
+  a.blubtn {
+    width:90px;
+    text-align:center;
+    display:block;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    border: #1071FF 1px solid;
+    color: #1071FF;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+     margin: 20px auto;
+    transition: .5s;
+    border-radius: 0px;
+  }
+  a.blubtn:hover {
+    top: 5px;
+    transition: .5s;
+    color: #10FF58;
+    border: #10FF58 1px solid;
+    border-radius: 10px;
+  }
+  a.blubtn:active {
+    color: #000;
+    border: #1A1A1A 1px solid;
+    transition: .07s;
+    background-color: #FFF;
+  }
